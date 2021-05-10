@@ -1,0 +1,30 @@
+@import "./normalize.css";
+:root {
+  --color-text: #666;
+  --color-high-text: #ff5777;
+  --color-tint: #ff8198;
+  --color-background: #fff;
+  --font-size: 14px;
+  --line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "PingFang SC", "Microsoft Yahei", "Source Han Sans CN",
+    sans-serif;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  background: var(--color-background);
+  color: var(--color-text);
+  width: 100vw;
+}
+a {
+  color: var(--color-text);
+  text-decoration: none;
+}
