@@ -29,7 +29,6 @@ export default {
   },
   methods: {
     itemClick() {
-      console.log(this.$route.path);
       this.$router.replace(this.link).catch(err => err);
     }
   }
